@@ -31,6 +31,7 @@ let isMediaFile (filepath: string) : Boolean =
     | ".mid"
     | ".m4a"
     | ".m4b"
+    | ".m4v"
     | ".m4p" -> true
     | _ -> false
 
